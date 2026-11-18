@@ -1,0 +1,15 @@
+.product-card button {
+    width: 200px;
+    padding: 9px 5px;
+    margin-top: 8px;
+    background: white;
+    border: 1px solid #e9b75f;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background: #e9b75f;
+    color: white;
+}
