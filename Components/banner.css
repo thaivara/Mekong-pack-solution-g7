@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.letstart{
+    padding: 40px 3.5%;
+}
+.banner-start{
+    padding: 50px 40px;
+    border-radius:36px;
+    background-image: url(/images/backkkk.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-start h2,
+.banner-start p{
+    margin-bottom: 30px;
+}
+.banner-start h2{
+    color: white;
+}
+.banner-start p{
+    color: rgb(189, 189, 189);
+}
+.btn-contact{
+    padding: 15px 40px;
+    border-radius: 6px;
+    background-color:#EAB308  ;
+    color: #1F2937;
+}
+.btn-contact:hover{
+    background-color: #CA8A04;
+}
