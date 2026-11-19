@@ -31,8 +31,9 @@
     border-radius: 5px;
     background: #f3eee5;
 }
-
-
+.product-card span{
+    margin-top: 5px;
+}
 .product-card button {
     width: 100%;
     padding: 9px 5px;
