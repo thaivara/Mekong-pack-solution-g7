@@ -13,11 +13,12 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
     color: var(--text);
     background: #ffffff;
 }
-
+body h1{
+    font-family: 'Playfair Display', serif;
+}
 /* ---------- HEADER (unchanged) ---------- */
 .header {
     justify-content: space-between;
@@ -201,8 +202,7 @@ form > label {
 }
 
 .type-option {
-    width: 145px;
-    padding: 10px;
+    padding: 15px 40px;
     border: 1px solid var(--yellow);
     border-radius: 6px;
     text-align: center;
@@ -394,9 +394,6 @@ button:hover {
         gap: 24px;
     }
 
-    .type-option {
-        width: 130px;
-    }
 
     .right-side {
         gap: 40px;
@@ -494,9 +491,6 @@ button:hover {
         flex-wrap: wrap;
     }
 
-    .type-option {
-        width: 45%;
-    }
 
     button {
         width: 100%;
@@ -538,9 +532,6 @@ button:hover {
         font-size: 20px;
     }
 
-    .type-option {
-        width: 100%;
-    }
 }
 
 /* ---------- FOOTER (unchanged) ---------- */
