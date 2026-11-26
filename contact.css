@@ -11,7 +11,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+.nav-bar a{
+    font-family: Arial,sans-serif;
+}
 body {
     color: var(--text);
     background: #ffffff;
